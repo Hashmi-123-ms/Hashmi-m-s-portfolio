@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Illustrated avatar of Hashmi M S">
+  <defs>
+    <clipPath id="circle"><circle cx="200" cy="200" r="196"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="skin" cx=".5" cy=".42" r=".6">
+      <stop offset="0" stop-color="#f1c4a0"/>
+      <stop offset="1" stop-color="#dfa47e"/>
+    </radialGradient>
+    <pattern id="floral" width="70" height="70" patternUnits="userSpaceOnUse">
+      <rect width="70" height="70" fill="#123f3a"/>
+      <!-- big flower -->
+      <g transform="translate(20 20)">
+        <ellipse cx="0" cy="-8" rx="5" ry="8" fill="#e8a33d"/>
+        <ellipse cx="8" cy="0" rx="8" ry="5" fill="#e8a33d"/>
+        <ellipse cx="0" cy="8" rx="5" ry="8" fill="#d48a2a"/>
+        <ellipse cx="-8" cy="0" rx="8" ry="5" fill="#d48a2a"/>
+        <circle r="4" fill="#9c3b2a"/>
+      </g>
+      <!-- small red flower -->
+      <g transform="translate(52 50)">
+        <circle cx="0" cy="-5" r="4" fill="#c2553b"/><circle cx="5" cy="0" r="4" fill="#c2553b"/>
+        <circle cx="0" cy="5" r="4" fill="#a8432e"/><circle cx="-5" cy="0" r="4" fill="#a8432e"/>
+        <circle r="2.4" fill="#f2c46b"/>
+      </g>
+      <!-- leaves & diamonds -->
+      <path d="M40 18 q8 -8 14 0 q-8 8 -14 0z" fill="#5f8f6e"/>
+      <path d="M10 52 q8 -8 14 0 q-8 8 -14 0z" fill="#5f8f6e"/>
+      <rect x="58" y="8" width="5" height="5" fill="#e8a33d" transform="rotate(45 60.5 10.5)"/>
+      <rect x="30" y="60" width="4" height="4" fill="#d9b3d0" transform="rotate(45 32 62)"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#circle)">
+    <rect width="400" height="400" fill="url(#bg)"/>
+    <g fill="#ffffff" opacity=".18" font-family="monospace" font-weight="700">
+      <text x="30" y="100" font-size="40">&lt;/&gt;</text>
+      <text x="296" y="110" font-size="36">{ }</text>
+      <text x="320" y="280" font-size="28">01</text>
+      <text x="44" y="270" font-size="34">;</text>
+    </g>
+
+    <!-- body / drape -->
+    <path d="M40 410 C 50 320, 120 286, 200 284 C 280 286, 350 320, 360 410 Z" fill="url(#floral)"/>
+    <path d="M150 300 C 170 330, 180 380, 176 410" fill="none" stroke="#0b2e2a" stroke-width="3" opacity=".5"/>
+    <path d="M250 300 C 236 340, 240 380, 250 410" fill="none" stroke="#0b2e2a" stroke-width="3" opacity=".5"/>
+
+    <!-- hijab around head -->
+    <path d="M200 62 C 118 62, 96 130, 98 196 C 100 262, 130 310, 200 318 C 270 310, 300 262, 302 196 C 304 130, 282 62, 200 62 Z" fill="url(#floral)"/>
+    <!-- pink/red border trim along face opening -->
+    <path d="M200 94 C 146 94, 128 140, 130 196 C 132 248, 156 290, 200 296 C 244 290, 268 248, 270 196 C 272 140, 254 94, 200 94 Z" fill="none" stroke="#c45a6a" stroke-width="7"/>
+    <path d="M200 94 C 146 94, 128 140, 130 196 C 132 248, 156 290, 200 296 C 244 290, 268 248, 270 196 C 272 140, 254 94, 200 94 Z" fill="none" stroke="#f2c46b" stroke-width="2" stroke-dasharray="4 6"/>
+
+    <!-- face -->
+    <path d="M200 106 C 158 106, 140 146, 142 196 C 144 246, 168 284, 200 286 C 232 284, 256 246, 258 196 C 260 146, 242 106, 200 106 Z" fill="url(#skin)"/>
+    <!-- hair: soft side-swept fringe -->
+    <path d="M142 176 C 138 130, 166 102, 206 104 C 244 106, 264 134, 258 172 C 254 150, 240 136, 222 132 C 200 130, 180 140, 166 156 C 156 166, 148 172, 142 176 Z" fill="#2b1a13"/>
+    <path d="M166 156 C 184 136, 206 128, 230 133" fill="none" stroke="#4a2e24" stroke-width="2.5" opacity=".8"/>
+
+    <!-- eyebrows -->
+    <path d="M160 180 Q 175 172, 190 178" fill="none" stroke="#2b1a13" stroke-width="5" stroke-linecap="round"/>
+    <path d="M210 178 Q 225 172, 240 180" fill="none" stroke="#2b1a13" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- eyes -->
+    <g>
+      <path d="M162 200 Q 176 188, 190 200 Q 176 208, 162 200 Z" fill="#fff"/>
+      <path d="M210 200 Q 224 188, 238 200 Q 224 208, 210 200 Z" fill="#fff"/>
+      <circle cx="176" cy="199" r="6.5" fill="#2a1a12"/>
+      <circle cx="224" cy="199" r="6.5" fill="#2a1a12"/>
+      <circle cx="178.5" cy="196.5" r="2.2" fill="#fff"/>
+      <circle cx="226.5" cy="196.5" r="2.2" fill="#fff"/>
+      <path d="M160 199 Q 176 186, 192 198" fill="none" stroke="#1f130e" stroke-width="3" stroke-linecap="round"/>
+      <path d="M208 198 Q 224 186, 240 199" fill="none" stroke="#1f130e" stroke-width="3" stroke-linecap="round"/>
+      <!-- blink lids -->
+      <g fill="#e6b08a">
+        <rect x="158" y="186" width="36" height="0">
+          <animate attributeName="height" values="0;0;22;0;0" keyTimes="0;.93;.95;.97;1" dur="5s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="206" y="186" width="36" height="0">
+          <animate attributeName="height" values="0;0;22;0;0" keyTimes="0;.93;.95;.97;1" dur="5s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- nose -->
+    <path d="M200 208 Q 198 224, 194 230 Q 200 233, 206 230" fill="none" stroke="#c48563" stroke-width="2.6" stroke-linecap="round"/>
+    <!-- cheeks -->
+    <ellipse cx="163" cy="232" rx="13" ry="8" fill="#ef8d84" opacity=".4"/>
+    <ellipse cx="237" cy="232" rx="13" ry="8" fill="#ef8d84" opacity=".4"/>
+    <!-- lips: gentle closed smile -->
+    <path d="M184 250 Q 200 262, 216 250 Q 200 256, 184 250 Z" fill="#c76a62"/>
+    <path d="M184 250 Q 200 262, 216 250" fill="none" stroke="#a65049" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- chin wrap -->
+    <path d="M146 270 C 168 304, 232 304, 254 270 C 268 296, 252 326, 200 332 C 148 326, 132 296, 146 270 Z" fill="url(#floral)"/>
+    <path d="M146 270 C 168 304, 232 304, 254 270" fill="none" stroke="#c45a6a" stroke-width="5"/>
+  </g>
+  <circle cx="200" cy="200" r="196" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="4"/>
+</svg>
